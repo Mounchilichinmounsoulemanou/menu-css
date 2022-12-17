@@ -1,0 +1,12 @@
+@media screen and (max-width: 886px) {
+    .container {
+        width: 95%;
+    }
+    nav ol {
+        text-align: center;
+        padding: 0;
+    }
+    nav ol li {
+        display: block;
+    }
+}

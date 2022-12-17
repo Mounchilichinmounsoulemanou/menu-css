@@ -1,0 +1,56 @@
+body {
+    background-image: url("/assets/images/kitchen.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+    margin: auto;
+    
+}
+/*************** MENU ***************/
+nav ol li:hover {
+    background-color: blue;
+
+}
+/*************** LISTE ***************/
+
+header ol {
+    list-style: none;
+    background-color: white;
+    line-height: 50px;
+    text-align: center;
+}
+header ol li {
+    display: inline-block;
+    height: 50px;
+    
+    
+}
+header ol li a {
+    text-decoration: none;
+    color: mediumorchid;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/*************** TITRES ***************/
+h1 {
+    font-size: 2rem;
+    padding-top: 20px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+/*************** SECTIONS ***************/
+section {
+    border: 1px solid black;
+}
+section p {
+    padding: 20px;
+    text-align: justify;
+}
